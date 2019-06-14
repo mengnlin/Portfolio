@@ -1,11 +1,13 @@
 ---
+title: Event Master
 layout: default
 modal-id: EventMater
 # date: 2014-07-18
 img: eventMaster.png
 alt: image-alt
 project-date: May 2019
+live: https://event-master.herokuapp.com/#/
+gitHubRepo: https://github.com/mengnlin/EventMaster
 
-# category: Web Development
-description: Eventmaster is an event listing/booking site, in which users could create, manage their events, and purchase other events. It makes use of a Rails/PostgreSQL backend, React.js and Redux on the frontend with AWS cloud service for photo storage.
+description: EventMaster is an Eventbrite clone site. EventMaster used Ruby on Rails for the backend, PostgreSQL as database, React, Redux and javaScript for the frontend. This one-page web-application came with RESTful APIs for CRUD operations. Bcryt password hashing function and salt are used to prevent rainbow table attack. In addition, I leveraged AWS S3 cloud service to store uploaded images and reduce server load. Furthermore, I also used a UI development tool called Storybook to build portable React components and UI design independently.
 ---
